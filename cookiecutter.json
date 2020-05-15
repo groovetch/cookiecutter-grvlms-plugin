@@ -1,0 +1,8 @@
+{
+  "plugin_name": "myplugin",
+  "package_name": "grvlms-{{ cookiecutter.plugin_name }}",
+  "module_name": "grvlms{{ cookiecutter.plugin_name.lower().replace('-', '_') }}",
+  "git_repo": "https://github.com/groovetch/grvlms-{{ cookiecutter.plugin_name }}",
+  "author": "GrooveTechnology",
+  "license": "AGPLv3"
+}
